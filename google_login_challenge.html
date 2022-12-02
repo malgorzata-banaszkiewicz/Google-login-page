@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logowanie - Konta Google</title>
+    <link rel="stylesheet" href="./for_google_challenge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,500;1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="login">
+            <figure id="logo">
+                <img src="./google-2015-logo-png-transparent.png" alt="logo Google" width="77px"
+                height="27px">
+            </figure>
+            <div class="main_text"> 
+                 <p class="google_sans">Zaloguj się</p>
+                 <p class="roboto">Użyj konta Google</p>
+            </div>
+                    <input type="text" placeholder="Adres e-mail lub telefon" id="main-input"   name="main-input" autocomplete="username" required>
+                    <button class="roboto blue" id="button">Nie pamiętasz adresu?</button>
+                    <span class="roboto push">To nie Twój komputer? Aby się zalogować, użyj okna przeglądania prywatnego.<a href="https://support.google.com/accounts?p=signin_privatebrowsing&hl=pl" class="roboto blue"> Więcej informacji</a></span>     
+            <div class="space push">
+                <span class="roboto blue">Utwórz konto</span>
+                <button class="roboto" id="dalej">Dalej</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <label for="language"></label>
+        <select name="language" id="language">
+            <option value="polski">polski</option>
+            <option value="english">english</option>
+            <option value="german">deutsch</option>
+            <option value="italian">italiano</option>
+        </select>
+        <small id="small_grid">
+            <div id="span1"><a href="https://support.google.com/accounts?hl=pl&p=account_iph">Pomoc</a></div>
+            <div id="span2"><a href="https://accounts.google.com/TOS?loc=PL&hl=pl&privacy=true">Prywatność</a></div>
+            <div id="span3"><a href="https://accounts.google.com/TOS?loc=PL&hl=pl">Warunki</a></div>
+        </small>
+    </footer>
+</body>
+</html>
